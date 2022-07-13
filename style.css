@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    overflow-x: hidden ;
+}
+p{
+    font-size: 18px;}
+
+.hero{
+    background-image: url(./img/pexels-juan-mendez-1536619.jpg);
+    height: 100vh;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.hero-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+
+
+.hero-text h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.hero-text p{
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+.hero-text a{
+    padding: 10px 25px;
+    background-color: rgb(21, 160, 168);
+    border: 0;
+    font-size: 18px;
+    border-radius: 2px;
+    color: #000;
+    text-decoration: none;
+    
+}
+.hero-text a:hover{
+    background-color: aliceblue;
+}
+
+
+.about{text-align: center;
+padding: 150px;
+color:#000
+}
+.about h3{
+    font-size: 40px;
+}
+.about p{
+    margin: 20px 0 50px 0;
+}
+
+.about a{
+    padding: 10px 25px;
+    background-color: rgb(21, 160, 168);
+    border: 0;
+    font-size: 18px;
+    border-radius: 2px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+.service{
+    background-color: rgb(21, 160, 168);
+    padding: 100px 0; 
+    text-align: center;
+}
+
+.porti{
+    background-image: url(./img/pexels-moose-photos-1038000.jpg);
+    height: 60vh;
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+ .inner{
+    text-align: center;
+padding: 120px 0;
+  
+}
+
+.inner h2{
+font-size: 60px;
+font-weight: bolder;
+padding: 0 300px;
+margin-bottom: 60px;
+}
+
+.inner a{
+    padding: 10px 25px;
+    background-color: rgb(21, 160, 168);
+    border: 0;
+    font-size: 18px;
+    border-radius: 2px;
+    color: #000;
+   text-decoration: none;
+
+}
+.projects{
+    padding: 120px; 
+}
+.projects h2,h3{
+    text-align: center;
+}
+
+.projects h2{
+    font-size: 50px;
+}
+
+.projects-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0px 0 190px;
+}
+.pro-item{width: 40%; margin: 10px;   position: relative;}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.434);
+    height: 264px;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    bottom: 5px;
+ display: flex; flex-direction: column;
+ justify-content: flex-end; 
+ text-align: left;
+}
+.overlay h4{
+    color: #fff;
+    font-size: 16px;
+}
+.overlay p{font-size: 10px; color: #fff;}
+.pro-item img{ width: 100%;
+    
+    }
+    
